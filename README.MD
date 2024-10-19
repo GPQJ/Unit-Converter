@@ -4,7 +4,7 @@ A simple and responsive web application for converting between metric and imperi
 
 ## Features
 
-- **Real-time Conversion:** Converts between metric and imperial units as soon as the user enters a value and clicks the "Convert" button.
+- Converts between metric and imperial units when the user enters a value and clicks the "Convert" button.
 - Conversions Supported:
 	- Length: Meters ↔ Feet
 	- Volume: Liters ↔ Gallons
@@ -15,7 +15,7 @@ A simple and responsive web application for converting between metric and imperi
 
 - Enter a number in the input field.
 - Click the Convert button.
-- The conversions for length, volume, and mass will appear below the button.
+- The length, volume, and mass conversions will appear below the button.
 
 ## Technologies Used
 
