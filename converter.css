@@ -78,7 +78,7 @@ input::-webkit-inner-spin-button {
 
 .converted{
 	background: var(--white);
-	width:90%;
+	width:95%;
 	margin: 1rem auto ;
 	padding: var(--spacing);
 }
