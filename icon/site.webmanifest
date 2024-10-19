@@ -1,0 +1,13 @@
+{
+	"name":"Imperial to metric unit converter",
+	"short_name":"Unit Converter",
+	"description":"Convert between metric and imperial units for length, volume, and mass.",
+	"icons":[
+		{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
+		{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}
+	],
+	"theme_color":"#6943FF",
+	"background_color":"#F4F4F4",
+	"display":"standalone",
+	"lang": "en-US"
+}

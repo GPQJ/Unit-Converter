@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Unit Converter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"  />
+        <meta name="author" content="GPQJ"/>
+        <meta name="description" content=" Simple unit converter">
+        <meta name="theme-color" content="#6943FF">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+		<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+		<link rel="manifest" href="icon/site.webmanifest">
+        <link rel="stylesheet" href="converter.css">
+		
+    </head>
+    <body>
+        <main>
+			<header>
+				<h1 class="title">Metric/Imperial Unit Conversion</h1>
+				<input type="number" class="input-unit" id="input-field" autocomplete="off">
+				<button class="convert-btn" id="convert-btn" aria-label="Convert entered value">
+					Convert
+				</button>
+			</header>
+            <section class="conversions-container">
+				<div class="converted" id="length-cont">
+					<h2 class="converted-title">Length (Meter/Feet)</h2>
+					<p class="converted-text" id="length-conversion"> </p>
+				</div>
+				<div class="converted" id="volume-cont">
+					<h2 class="converted-title">Volume (Liters/Gallons)</h2>
+					<p class="converted-text" id="volume-conversion"></p>
+				</div>
+				<div class="converted" id="mass-cont">
+					<h2 class="converted-title">Mass (Kilograms/Pounds)</h2>
+					<p class="converted-text" id="mass-conversion"></p>
+				</div>
+            </section>
+        </main>
+        <footer class="gpqj-footer" role="contentinfo">
+            <p class="signature">  GPQJ ❀ 2024 </p>
+        </footer>
+		<script src="converter.js"></script>
+    </body>
+</html>
